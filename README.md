@@ -30,6 +30,7 @@ The top-1/5 accuracy rates by using single center crop (crop size: 224x224, imag
 ## test
 
 Evaluate MobileNet v1:
+>
     python3 MobileNetv2.py --proto mobilenet_v1_1.0_224/mobilenet_deploy.prototxt --model mobilenet_v1_1.0_224/mobilenet.caffemodel --image cat.jpg 
 
 Expected Outputs:
@@ -43,6 +44,7 @@ Expected Outputs:
 ```
 
 Evaluate MobileNet v2:
+> 
     python3 MobileNetv2.py --proto mobilenet_v2_0.35_224/test_mobilev2_0.35.prototxt --model mobilenet_v2_0.35_224/MobileNetv2_iter_330000.caffemodel --image cat.jpg
 
 
